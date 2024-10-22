@@ -1,0 +1,12 @@
+{
+  "name": "ticket",
+  "version": "1.0.0",
+  "description": "Api de gerenciamento de ticket suporte",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "author": "Pedro Augusto",
+  "license": "ISC"
+}
