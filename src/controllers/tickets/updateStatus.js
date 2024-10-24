@@ -1,10 +1,10 @@
-export function updateStatus({request, response, database}){
-    const { id } = request.params
-    const { solution } = request.body
+export function updateStatus({ request, response, database }) {
+  const { id } = request.params;
+  const { solution } = request.body;
 
-    console.log(solution)
+  console.log(solution);
 
-    database.update("tickets", id, {status: "closed", solution})
-    
-    return response.end()
+  database.update("tickets", id, { status: "closed", solution });
+
+  return response.end();
 }
